@@ -1,4 +1,4 @@
-/* SEREN Legal Documents Stylesheet */
+/* Nuvin Legal Documents Stylesheet */
 
 :root {
     --primary-purple: #8B7FC6;
@@ -193,56 +193,4 @@ footer {
 
 .links a {
     font-size: 1.1rem;
-}
-
-/* Features Section */
-.features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
-    margin-top: 40px;
-    text-align: center;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.feature {
-    padding: 20px 16px;
-    background-color: var(--bg-light);
-    border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.feature:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-.feature h3 {
-    font-size: 1.75rem;
-    margin-bottom: 8px;
-    margin-top: 0;
-}
-
-.feature p {
-    font-size: 0.85rem;
-    color: var(--text-medium);
-    margin-bottom: 0;
-    line-height: 1.4;
-}
-
-@media (max-width: 768px) {
-    .hero {
-        padding: 40px 20px;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .features {
-        grid-template-columns: 1fr;
-        gap: 24px;
-    }
 }
